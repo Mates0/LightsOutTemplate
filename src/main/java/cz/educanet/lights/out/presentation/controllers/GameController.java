@@ -27,9 +27,7 @@ public class GameController {
 
     @FXML
     public void initialize() {
-        // TODO: Change here with your own impl
         game = new Game();
-        // TODO: Change here with your own impl
 
         if (game != null) {
             cells = new Button[SIZE][SIZE];
